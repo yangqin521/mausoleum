@@ -1,0 +1,40 @@
+.app {
+  display: inline-block;
+  width: 1535px;
+  height: 753px;
+  overflow: hidden;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  opacity: 0.7;
+}
+.header-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  flex: 1;
+  border: 0;
+}
+.header .ant-btn{
+  display: inline-block;
+  width: 100%;
+  height: 50px !important;
+  opacity: 0.9;
+  border: 0px solid ;
+}
+.header-list-item:hover{
+  /* color: rgb(102, 100, 100) !important;
+  text-decoration:  red underline; */
+}
+.activeClass {
+  color: black;
+}
+#link:hover {
+  color: rgb(102, 100, 100) !important;
+}
+#meau-list {
+  width: 170px;
+}

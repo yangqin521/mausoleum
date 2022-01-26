@@ -1,0 +1,38 @@
+//全部已审核过的坐标信息
+axios.get("http://localhost:3000/mausoleum/coordinate/getList")
+    //, Qs.stringify(data)
+    .then(res=> {
+      // var code = res.data.code;
+      // var msg = res.data.msg;
+      console.log(res)
+      // if(code === 0) {
+      //   notification['success']({
+      //     message: '',
+      //     description: "提交成功，请耐心等待审核"
+      //   });
+      //   this.setState({isSuggesting: false});
+      // } else {
+      //   notification['error']({
+      //     message: '',
+      //     description: msg
+      //   });
+    
+    })
+删除已审核过的坐标信息
+var url = '/mausoleum/coordinate/destroy';
+                    $.post(url, {
+                        coordinateId : data.coordinateId
+                    }, 
+
+查看已审核过的视频信息
+axios.get("http://localhost:3000/mausoleum/video/getList")
+删除
+var url = '/mausoleum/video/destroy';
+                    $.post(url, {
+                        videoId : data.videoId
+                    }, function (result) {
+
+
+
+
+

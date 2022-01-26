@@ -1,0 +1,14 @@
+.modText .simditor {
+  width: 1000px;
+  opacity: 0.7;
+  left: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.modText {
+  height: 650px;
+  overflow: scroll;
+}
+.modText .ant-btn-primary{
+  left: 250px;
+}

@@ -1,0 +1,80 @@
+
+.register  {
+  width: 570px;
+  height: 370px;
+  border: solid 1px white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(background.jpeg);
+  background-color: rgb(230, 230, 230, 0.3);
+}
+.register #register-view {
+  width: 570px;
+  height: 370px;
+}
+
+body .register{
+  background-size: cover;
+  width: 570px;
+  height: 370px;
+}
+.register .register-title {
+  font-size: 25px;
+  width: 540px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: cornflowerblue;
+}
+.register .layui-input {
+  width: 300px;
+  margin-bottom: 4px;
+  height: 38px;
+  border: white;
+  opacity: 0.7;
+
+}
+.register .layui-input-safe {
+  opacity: 0.7;
+  width: 215px;
+  margin-left: 100px;
+  height: 38px;
+  border: white;
+  margin-bottom: 10px;
+}
+.register #captchaImage {
+  position: absolute;
+  left: 315px;
+  top: 0px;
+}
+.register .layui-form-item {
+  position: relative;
+  left: 30px;
+}
+.register #register-success {
+  width: 148px;
+  height: 20px;
+  color: white;
+  position: absolute;
+  text-align: center;
+  border: cornflowerblue;
+  background-color: cornflowerblue;
+  line-height: 20px;
+  margin-left: 100px;
+  margin-top: -17px;
+  opacity: 0.7;
+}
+.register .back-to-login {
+  height: 20px;
+  position: absolute;
+  width: 148px;
+  color: white;
+  text-align: center;
+  border: cornflowerblue;
+  background-color: cornflowerblue;
+  left: 250px;
+  bottom: 45x;
+  opacity: 0.7;
+}

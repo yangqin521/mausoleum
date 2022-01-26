@@ -1,0 +1,15 @@
+.audit .ant-tabs-content-holder {
+  width: 1000px;
+  position: relative;
+  left: 50%;
+  top: -10px;
+  transform: translate(-50%);
+  opacity: 0.7;
+}
+.changeUrl {
+  position: relative;
+  top: -50px;
+}
+.audit-user {
+  top: 0px;
+}

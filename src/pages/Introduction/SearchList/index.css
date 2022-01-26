@@ -1,0 +1,16 @@
+.search-header .ant-input-wrapper {
+  margin-top: 30px;
+  margin-left: 350px;
+  width: 600px;
+  height: 40px;
+}
+.search-header .ant-input {
+  height: 40px;
+}
+.search-header .ant-btn {
+  height: 40px;
+  
+}
+.search-header .anticon anticon-search {
+  height: 40px;
+}
